@@ -1,5 +1,8 @@
 # 3D Photo library
 
+[![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/IMHOJEONG/CDP_Project3)
+
+
 ## 개요 
 
 Three.js를 이용한 사진들을 3D로 볼 수 있는 사진 포토 갤러리 웹 페이지 입니다.

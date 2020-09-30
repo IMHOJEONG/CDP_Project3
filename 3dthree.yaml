@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  description: "This is a 3D Photo Library.  You can find out more about     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/)."
+  version: "1.0.0"
+  title: "Astronomy Picture of the Day"
+  termsOfService: "http://swagger.io/terms/"
+  contact:
+    email: "39ghwjd@naver.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "master-cdp-project3-imhojeong.endpoint.ainize.ai"
+basePath: "/"
+tags:
+- name: "/"
+  description: "Get Pictures"
+schemes:
+- "https"
+paths:
+  /:
+    get:
+      tags:
+      - "/"
+      description: ""
+      produces:
+      - "html"
+      responses:
+        "404":
+          description: "No healthy upstream"
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"

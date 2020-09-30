@@ -1,68 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 3D Photo library
 
-## Available Scripts
+## 개요 
 
-In the project directory, you can run:
+Three.js를 이용한 사진들을 3D로 볼 수 있는 사진 포토 갤러리 웹 페이지 입니다.
 
-### `yarn start`
+## 기능 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Ctrl 또는 Shift 누르고 마우스 커서 이동 시 =>  화면 객체 이동 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- 키보드 화살표 이동 시 => 화면 객체 이동 
 
-### `yarn test`
+- 마우스만 사용해서 이동 시 카메라 이동 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 아쉬웠던 점 
 
-### `yarn build`
+- React 관련 예시가 Three.js 공식 문서에 잘 나와 있지 않은 것이 아쉬운 부분 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 성능이 잘 안 나온다는 부분
+    - 역시 3D라 그런지 렌더링 속도도 느린 부분이 존재 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- 개체의 양이 많아지면 크롬 브라우저가 다운되는 경우가 자주 발생함 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## 기술 스택 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- React
+- Express
+- Three.js 
